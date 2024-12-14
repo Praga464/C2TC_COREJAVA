@@ -6,11 +6,9 @@ public class ContinueDemo {
 		// TODO Auto-generated method stub
 		for (int k = 5; k < 15; k++)
 		{
-		// Odd numbers are skipped
 		if (k%2 != 0)
 		continue;
-		// Even numbers are printed
-		System.out.print(k + " ");
+		System.out.println(k);
 	}
 	}
 }
